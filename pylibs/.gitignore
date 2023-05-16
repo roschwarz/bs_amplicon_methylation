@@ -1,0 +1,5 @@
+tester.py
+*.swp
+*.pyc
+testground
+__pycache__/

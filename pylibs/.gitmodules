@@ -1,0 +1,3 @@
+[submodule "biopython"]
+	path = biopython
+	url = https://github.com/biopython/biopython.git
