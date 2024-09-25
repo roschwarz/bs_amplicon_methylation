@@ -41,7 +41,7 @@ def parse_options():
 
     args = parser.parse_args()
 
-    return parser, args
+    return args
 
 def dir_path(path):
 
@@ -56,8 +56,8 @@ def dir_path(path):
 def run_cpg_count(info, sample_file, result_path, args):
         
     script_path = os.path.dirname(os.path.realpath(__file__))
-    #cpg_count = "/home/lakatos/nielsj/projects/steve/bucksad/cpg_count "
     cpg_count = script_path + "/cpg_count "
+
     if args.sex:
         
         pattern = sample_file.split(".")[0].split("_")[-1]
@@ -169,7 +169,7 @@ def file_init(file_name):
 
 def main():
     
-    parser, args = parse_options()
+    args = parse_options()
 
     amplicon_information = admin.read_infofile(args.info)
 
