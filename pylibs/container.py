@@ -1,7 +1,7 @@
-import pylib.administration as admin
+import pylibs.administration as admin
 from Bio import SeqIO
-from pylib.seq_methods import load_seq_file, primer_check, find_motif
-from Bio.Alphabet import IUPAC
+from pylibs.seq_methods import load_seq_file, primer_check, find_motif
+#from Bio.Alphabet import IUPAC
 from Bio.Seq import Seq
 
 class fasta_records():

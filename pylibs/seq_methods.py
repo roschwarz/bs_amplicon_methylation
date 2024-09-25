@@ -10,7 +10,7 @@ import sys
 import random
 import argparse
 import re
-import pylib.administration as admin
+import pylibs.administration as admin
 from Bio import SeqIO
 from Bio.SeqIO.QualityIO import FastqGeneralIterator
 from Bio.Seq import Seq
