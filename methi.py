@@ -145,7 +145,7 @@ def write_compressed_cpg_update(compressed_info, file_name):
     
     with open("final_%s.csv" %file_name, "a") as f:
 
-        writer = csv.writer(f, delimiter=";")
+        writer = csv.writer(f) #, delimiter=";")
  
         for entry in compressed_info:
             
