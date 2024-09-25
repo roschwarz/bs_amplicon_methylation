@@ -44,6 +44,6 @@ values.
 python3 methi.py -d fastq-files/ -i sample.txt -s
 ```
 
--d - directory with all fastq-files
--i - the information file with the patter like described above
--s - separates the reads into sex-specific sets
+-d - directory with all fastq-files<br/>
+-i - the information file with the patter like described above<br/>
+-s - separates the reads into sex-specific sets<br/>
