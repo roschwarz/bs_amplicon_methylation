@@ -6,15 +6,12 @@
 #
 #########
 
-import sys
 import random
-import argparse
 import re
 import pylibs.administration as admin
 from Bio import SeqIO
 from Bio.SeqIO.QualityIO import FastqGeneralIterator
 from Bio.Seq import Seq
-from Bio.SeqRecord import SeqRecord
 
 
 def date():
