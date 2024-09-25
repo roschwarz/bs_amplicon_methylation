@@ -55,8 +55,9 @@ def dir_path(path):
 
 def run_cpg_count(info, sample_file, result_path, args):
         
-    cpg_count = "/home/lakatos/nielsj/projects/steve/bucksad/cpg_count "
-    #cpg_count = "./cpg_count "
+    script_path = os.path.dirname(os.path.realpath(__file__))
+    #cpg_count = "/home/lakatos/nielsj/projects/steve/bucksad/cpg_count "
+    cpg_count = script_path + "/cpg_count "
     if args.sex:
         
         pattern = sample_file.split(".")[0].split("_")[-1]
